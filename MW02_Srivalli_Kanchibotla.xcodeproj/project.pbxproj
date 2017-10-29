@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E3CE8241DC2E13B009DEE5C /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3CE8231DC2E13B009DEE5C /* MyTableViewController.swift */; };
 		4EB5B6C31DC1603600446597 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB5B6C21DC1603600446597 /* AppDelegate.swift */; };
 		4EB5B6C51DC1603600446597 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB5B6C41DC1603600446597 /* ViewController.swift */; };
 		4EB5B6C81DC1603600446597 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EB5B6C61DC1603600446597 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4E3CE8231DC2E13B009DEE5C /* MyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
 		4EB5B6BF1DC1603600446597 /* MW02_Srivalli_Kanchibotla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MW02_Srivalli_Kanchibotla.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EB5B6C21DC1603600446597 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EB5B6C41DC1603600446597 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				4EB5B6C91DC1603600446597 /* Assets.xcassets */,
 				4EB5B6CB1DC1603600446597 /* LaunchScreen.storyboard */,
 				4EB5B6CE1DC1603600446597 /* Info.plist */,
+				4E3CE8231DC2E13B009DEE5C /* MyTableViewController.swift */,
 			);
 			path = MW02_Srivalli_Kanchibotla;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EB5B6C51DC1603600446597 /* ViewController.swift in Sources */,
+				4E3CE8241DC2E13B009DEE5C /* MyTableViewController.swift in Sources */,
 				4EB5B6C31DC1603600446597 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +509,7 @@
 				4EB5B6E91DC1603600446597 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4EB5B6EA1DC1603600446597 /* Build configuration list for PBXNativeTarget "MW02_Srivalli_KanchibotlaTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				4EB5B6EC1DC1603600446597 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4EB5B6ED1DC1603600446597 /* Build configuration list for PBXNativeTarget "MW02_Srivalli_KanchibotlaUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				4EB5B6EF1DC1603600446597 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
